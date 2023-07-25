@@ -1,17 +1,1 @@
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
-    1. Global Styles
-    2. Typografie
-    3. Areas
-        3.1 Header
-        3.2 Testimonial
-        3.3 Support
-        3.4 Faq
-        3.5 Footer
-////////////////////////////////////////////////////////////////////////*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border-style: none;
-}
+/.idea

@@ -18,10 +18,22 @@ Table of Contents:
 
 
 
+
 /*1. Global Styles*/
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1400px;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+    border: 2px solid black;
+}
 
-
+li {
+    list-style: none;
+}
 /*2. Typografie*/
 
 h1 {
@@ -30,21 +42,79 @@ h1 {
 
 h3 h1 {
     font-size: 30px;
+    padding: 10px 10px 10px 10px;
 }
 
 p {
-    fon
+    padding: 10px 10px 10px 10px;
 }
 /*3. Areas*/
 
 
 
+
 /*3.1 Header*/
 
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    height: 400px;
+    border: 2px solid blue;
+
+}
+
+.header-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Verplaatst de inhoud (flex-items) naar rechts */
+    align-items: flex-end; /* Verplaatst de inhoud naar onderen */
+    background-image: url("../images/vliegende-uil.jpg");
+    background-repeat: no-repeat;
+    background-position: right; /* Verplaatst alleen de achtergrondafbeelding naar rechts */
+    height: 400px;
+    border: solid yellowgreen;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Uitlijnen naar rechts */
+    align-items: flex-start;
+    border: 2px solid pink;
+}
+
+header li {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid greenyellow;
+}
 
 
-/*3.2 Testimonial*/
+/*3.2 Main*/
 
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid yellow;
+    flex-wrap: wrap;
+    padding: 50px 50px 50px 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid red;
+
+}
 
 
 /*3.3 Support*/
@@ -57,4 +127,14 @@ p {
 
 /*3.5 Footer*/
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hotpink;
+    padding: 50px 50px 50px 50px;
+}
 
+footer li {
+    padding-top: 5px;
+}
